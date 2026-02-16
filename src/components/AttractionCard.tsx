@@ -39,7 +39,7 @@ const AttractionCard = ({ image, title, description, index }: AttractionCardProp
           <p className="text-foreground/70 text-sm leading-relaxed opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-100">
             {description}
           </p>
-          <div className="mt-4 flex items-center gap-2 text-gold text-sm font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-150">
+          <a href="#contact" className="mt-4 flex items-center gap-2 text-gold text-sm font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-150">
             <span>Learn More</span>
             <svg
               className="w-4 h-4 transform group-hover:translate-x-1 transition-transform"
@@ -54,7 +54,7 @@ const AttractionCard = ({ image, title, description, index }: AttractionCardProp
                 d="M17 8l4 4m0 0l-4 4m4-4H3"
               />
             </svg>
-          </div>
+          </a>
         </motion.div>
       </div>
 

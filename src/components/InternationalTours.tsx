@@ -74,10 +74,10 @@ const InternationalTours = () => {
                   <p className="text-muted-foreground text-sm leading-relaxed">
                     {destination.description}
                   </p>
-                  <div className="mt-4 flex items-center gap-2 text-gold text-sm font-medium opacity-0 group-hover:opacity-100 transition-opacity">
-                    <span>View Packages</span>
-                    <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-                  </div>
+                  <a href="#contact" className="mt-4 flex items-center gap-2 text-gold text-sm font-medium opacity-0 group-hover:opacity-100 transition-opacity">
+                     <span>Learn More</span>
+                     <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                   </a>
                 </div>
               </div>
             </motion.div>
